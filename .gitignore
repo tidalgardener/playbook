@@ -1,0 +1,29 @@
+.DS_Store
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Env / secrets
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+build/
+coverage/
+.turbo/
+.next/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# AWS CDK
+cdk.out/
+
