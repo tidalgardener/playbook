@@ -4,7 +4,7 @@
 
 - Date: 2025-12-21
 - Repo status: docs-first bootstrap complete; ready for deeper playbook drafting and first code scaffolds (MCP/CDK).
-- Git: pushed `main` to `git@github.com:tidalgardener/playbook.git` (latest commit `c8939ca`).
+- Git: pushed `main` to `git@github.com:tidalgardener/playbook.git` (see `git log -1` for the latest commit).
 
 ## What changed this session
 
@@ -47,10 +47,7 @@
 
 ## Git
 
-- Commits:
-  - `cdc006e` (“Bootstrap docs and initial playbooks”)
-  - `c8939ca` (“Update session handoff”)
-- Branch: `main` pushed to `origin/main`
+- Branch: `main` pushed to `origin/main` (run `git log --oneline -5` for recent commits)
 
 ## Risks / gotchas
 
@@ -82,7 +79,7 @@ What changed last session:
 - Added and updated global docs (START_HERE, DEPLOYING, RECAP, MANIFEST, etc.).
 - Added two playbooks (meta playbook + headless services skeleton).
 - Added placeholders for mcp/ and infra/.
-- Committed and pushed main (latest commit c8939ca).
+- Committed and pushed `main` (see `git log` for details).
 
 Next tasks (priority):
 1) Refine playbook template + “how to fold in ChatGPT Pro v0 drafts” in playbooks/playbook-for-playbooks/README.md.
