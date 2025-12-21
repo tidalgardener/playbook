@@ -53,6 +53,7 @@
 
 - AWS account is shared: any deploy/destroy must be limited to `playbook*` resources only and double-checked.
 - Keep secrets out of a public repo; sanitize any accidental exposure immediately.
+- In this Codex sandbox, Git operations that write under `.git/` may require escalated permissions.
 
 ## At the moment we stopped…
 
