@@ -2,6 +2,16 @@
 
 High-level progress log for the repository. Keep this brief and durable (major milestones and decisions). Session-by-session details belong in `SESSION_HANDOFF.md`.
 
+## Current status
+
+- Repo bootstrap complete; next work is deepening playbooks and scaffolding MCP/CDK.
+- Nothing deployed to AWS yet.
+
+## Known limitations / open questions
+
+- CDK app language/layout is not chosen yet.
+- CI checks are not configured yet.
+
 ## 2025-12-21
 
 - Bootstrapped repo structure (global docs, playbooks folder, MCP/infra placeholders).

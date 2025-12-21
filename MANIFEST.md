@@ -2,6 +2,19 @@
 
 This repo is organized around a small set of global docs plus per-playbook folders.
 
+## Current status
+
+- Docs-first bootstrap: structure is in place, but there is no MCP server code and no CDK app yet.
+
+## Decisions (and rationale)
+
+- Keep a small set of global “memory” docs (`CONTEXT_MEMORY.md`, `SESSION_HANDOFF.md`) so work can continue across sessions cleanly.
+
+## Known limitations / open questions
+
+- CDK app language/layout is not chosen yet.
+- CI checks (markdown lint/link check/secret scanning) are not configured yet.
+
 ## Top-level docs
 
 - `README.md` — repo overview and entry points.
