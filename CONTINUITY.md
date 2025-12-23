@@ -30,8 +30,8 @@ Canonical, compaction-safe briefing for continuing work in this repo.
   - Created new playbook skeleton: `playbooks/genai-assisted-mundane-projects/` (docs + prompts; needs your workflow captured).
   - Added reusable bootstrap prompt folder: `playbooks/mundane-service-bootstrap/BOOTSTRAP_PROMPT.txt`.
   - Added assumptions/prereqs for the prompt pack: `playbooks/mundane-service-bootstrap/README.md`.
-- Working tree:
-  - Uncommitted changes present (docs/playbooks): `CONTINUITY.md`, `MANIFEST.md`, `NEXT_STEPS.md`, `PLAYBOOKS.md`, `README.md`, `SESSION_HANDOFF.md`, `START_HERE.md`, `TODO.md`, `playbooks/playbook-for-playbooks/PROMPTS.md`, `playbooks/playbook-for-playbooks/README.md`, `playbooks/playbook-for-playbooks/TODO.md`, `playbooks/genai-assisted-mundane-projects/`, `playbooks/mundane-service-bootstrap/`.
+- Git:
+  - Committed and pushed to `main` (2025-12-23).
 - Now:
   - Capture your baseline “mundane project” definition + workflow (Q&A) and refine `playbooks/genai-assisted-mundane-projects/`.
 - Next:
