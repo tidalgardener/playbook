@@ -12,17 +12,20 @@ This is a public sandbox repository for:
 ## Current status
 
 - Repo is in **bootstrap** phase: docs + structure exist, but there is **no MCP server code** and **no CDK app** yet.
-- Two playbooks exist in draft form:
+- Four playbooks exist in draft form:
   - `playbooks/playbook-for-playbooks/` (meta workflow + templates)
+  - `playbooks/genai-assisted-mundane-projects/` (define a typical “mundane project” + keep it AI-ready)
+  - `playbooks/mundane-service-bootstrap/` (copy/paste bootstrap prompt for starting new “mundane” AWS service repos)
   - `playbooks/headless-services-mundane-business-apps/` (domain-agnostic skeleton; default AWS architecture chosen)
 
 ## Read in this order
 
 1. `RULES.md` — non-negotiables (public repo, AWS safety)
-2. `playbooks/playbook-for-playbooks/README.md` — how we create/iterate on playbooks in this repo
-3. `PLAYBOOKS.md` — playbook index
-4. `TODO.md` and `NEXT_STEPS.md` — what to do next
-5. `SESSION_HANDOFF.md` — where we left off last session
+2. `CONTINUITY.md` — canonical session ledger (goal/state/open questions)
+3. `playbooks/playbook-for-playbooks/README.md` — how we create/iterate on playbooks in this repo
+4. `PLAYBOOKS.md` — playbook index
+5. `TODO.md` and `NEXT_STEPS.md` — what to do next
+6. `SESSION_HANDOFF.md` — where we left off last session
 
 ## If you are starting a new playbook
 
@@ -54,4 +57,3 @@ Follow `RULES.md` strictly:
 - CDK app structure and language choice are not decided yet.
 - No CI is configured yet (markdown lint/link check/secret scanning).
 - Git operations inside this Codex sandbox may require escalated permissions (see `SESSION_HANDOFF.md`).
-

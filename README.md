@@ -13,11 +13,13 @@ This repo is public. Do not commit secrets.
 
 - Bootstrapped docs-first structure (no MCP server implementations yet).
 - No AWS infrastructure is deployed yet; CDK app not scaffolded yet.
+- Four draft playbooks exist; see `PLAYBOOKS.md`.
 
 ## Start Here
 
 - `START_HERE.md` — the quickest path to orienting yourself
 - `RULES.md` — non-negotiables (public repo, AWS safety rules)
+- `CONTINUITY.md` — canonical session ledger (goal/state/open questions)
 - `PLAYBOOKS.md` — index of playbooks
 - `TODO.md` — global backlog
 - `NEXT_STEPS.md` — immediate next actions

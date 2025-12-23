@@ -16,6 +16,34 @@ These prompts help create and improve playbooks in this repo.
   - Prefix all stacks/resources with `playbook`
   - Never propose broad destructive commands; scope to `playbook*` only
 
+## Prompt pack template (copy/paste)
+
+Use this template when creating prompts for a new playbook. The goal is for every prompt to be:
+
+- standalone (safe to paste without extra context)
+- explicit about constraints and expected output
+- safe for a public repo (no secrets) and safe for AWS (scoped)
+
+```md
+## Prompt: <Short name>
+
+**Goal:** <What this prompt produces and why.>
+
+**Context:** <What the model should assume about the repo/project.>
+
+**Constraints / guardrails:**
+- This repo is public: never output secrets; use `REDACTED`.
+- If AWS is involved: use `--profile playbook`, verify account `926943999684`, use region `us-east-2`, prefix everything `playbook*`, and never propose broad destructive operations.
+- <Any domain-specific constraints.>
+
+**Output format:**
+- <Markdown with headings + checklist, OR JSON/YAML schema, etc.>
+
+Paste:
+
+> <Your prompt text…>
+```
+
 ## Prompt: Draft a new playbook (v0)
 
 Paste:

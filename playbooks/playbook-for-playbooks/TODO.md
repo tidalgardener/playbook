@@ -2,13 +2,13 @@
 
 ## Current status
 
-- This is a new meta playbook; backlog items below are not started yet.
+- This is a new meta playbook; the initial workflow/template is now in place.
 
-- [ ] Add a “playbook review” checklist (clarity, completeness, operational realism).
-- [ ] Add a “prompt pack” template with slots for constraints, guardrails, and output format.
-- [ ] Add guidance for when to create MCP tooling vs keep it as docs.
-- [ ] Add guidance for when to deploy to AWS vs keep it local.
-- [ ] Add examples of good vs bad playbook sections (brief).
+- [x] Add a “playbook review” checklist (clarity, completeness, operational realism).
+- [x] Add a “prompt pack” template with slots for constraints, guardrails, and output format.
+- [x] Add guidance for when to create MCP tooling vs keep it as docs.
+- [x] Add guidance for when to deploy to AWS vs keep it local.
+- [x] Add examples of good vs bad playbook sections (brief).
 
 ## Open questions
 

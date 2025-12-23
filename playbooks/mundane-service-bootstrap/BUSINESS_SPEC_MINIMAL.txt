@@ -1,0 +1,8 @@
+BUSINESS SPEC (Minimum required)
+1. Problem statement
+2. Users / actors (human + agentic)
+3. Goals / success criteria
+4. Non-goals
+
+Note: More requirements will be added shortly. If optional sections aren’t provided, the agent can propose/fill them in as a draft (marking unknowns as UNCONFIRMED) while focusing on setting up structure and documentation first.
+

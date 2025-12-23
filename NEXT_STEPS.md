@@ -4,15 +4,15 @@ Immediate next actions to keep momentum.
 
 ## Current status
 
-- Two draft playbooks exist; repo is still docs-first and not yet wired to code/deployments.
+- Four draft playbooks exist; repo is docs-first and focused on documenting approaches, prompts, and playbooks (no code scaffolds in this phase).
 
 ## Next actions (priority order)
 
-1. Finalize the workflow for folding ChatGPT Pro “v0 drafts” into repo playbooks in `playbooks/playbook-for-playbooks/README.md`.
-2. Expand the headless services playbook into a deeper, step-by-step guide (still domain-agnostic): `playbooks/headless-services-mundane-business-apps/README.md`.
-3. Decide CDK language/layout and scaffold the first CDK app under `infra/` with strict account/region/prefix guardrails.
-4. Implement the first MCP server under `mcp/` (even a minimal “hello tool”) and document local run/config.
-5. Add basic CI suitable for a public docs-first repo (markdown lint/link check/secret scanning).
+1. Capture your baseline “mundane project” definition + workflow and refine the new playbook: `playbooks/genai-assisted-mundane-projects/README.md`.
+2. Add copy/pasteable templates for a new project’s canonical doc set + prompt pack (docs-only): `playbooks/genai-assisted-mundane-projects/`.
+3. Expand the headless services playbook as one concrete “track” for mundane projects: `playbooks/headless-services-mundane-business-apps/README.md`.
+4. Decide whether to add a concrete running example domain (or stay domain-agnostic longer).
+5. Decide later whether this repo should ever include MCP/CDK code, or remain documentation-only.
 
 ## Known issues / gotchas
 

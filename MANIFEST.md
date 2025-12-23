@@ -8,7 +8,7 @@ This repo is organized around a small set of global docs plus per-playbook folde
 
 ## Decisions (and rationale)
 
-- Keep a small set of global “memory” docs (`CONTEXT_MEMORY.md`, `SESSION_HANDOFF.md`) so work can continue across sessions cleanly.
+- Keep a small set of global “memory” docs (`CONTINUITY.md`, `CONTEXT_MEMORY.md`, `SESSION_HANDOFF.md`) so work can continue across sessions cleanly.
 
 ## Known limitations / open questions
 
@@ -19,6 +19,7 @@ This repo is organized around a small set of global docs plus per-playbook folde
 
 - `README.md` — repo overview and entry points.
 - `START_HERE.md` — quickest orientation and workflow pointers.
+- `CONTINUITY.md` — canonical session ledger (goal/state/open questions).
 - `RECAP.md` — durable milestone log (high-level).
 - `RULES.md` — hard rules (public repo, AWS safety).
 - `CONTEXT_MEMORY.md` — stable facts/decisions across sessions.

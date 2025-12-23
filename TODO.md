@@ -10,12 +10,13 @@
 
 - Global structure and safety rules: `README.md`, `RULES.md`, `START_HERE.md`, `MANIFEST.md`
 - Playbook workflow/template: `playbooks/playbook-for-playbooks/`
+- GenAI-assisted mundane projects playbook skeleton: `playbooks/genai-assisted-mundane-projects/`
 - Headless services playbook skeleton: `playbooks/headless-services-mundane-business-apps/`
 
 ## Repo foundation
 
 - [x] Establish the “playbook for playbooks” as the default workflow.
-- [ ] Refine the playbook template (required sections + naming) in `playbooks/playbook-for-playbooks/README.md`.
+- [x] Refine the playbook template (required sections + naming) in `playbooks/playbook-for-playbooks/README.md`.
 - [ ] Decide whether to add a static docs generator now (or stay Markdown-only initially).
 - [ ] Add an initial MCP server implementation in `mcp/` (with local run instructions).
 - [ ] Add CDK app skeleton in `infra/` with account/region/prefix guardrails (and document in `DEPLOYING.md` / `DEPLOYMENTS.md`).
@@ -23,6 +24,7 @@
 
 ## Playbooks
 
+- [ ] Flesh out the “GenAI-assisted mundane projects” playbook (capture the real workflow; add templates + prompts).
 - [ ] Flesh out the first playbook: “Headless services for mundane business applications” (keep domain-agnostic initially).
 - [ ] Add a “prompt library” approach (shared prompts + per-playbook prompts).
 - [ ] Define a standard “definition of done” checklist for playbooks (in `QA.md`).
